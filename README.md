@@ -1,0 +1,4 @@
+stylenote-template
+==================
+
+StyleGuideジェネレーターStyleNoteのデフォルトテンプレート
