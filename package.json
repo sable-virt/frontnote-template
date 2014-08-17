@@ -1,6 +1,6 @@
 {
   "name": "FrontNoteTemplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "StyleGuide Template for FrontNote",
   "main": "gulpfile.js",
   "dependencies": {},

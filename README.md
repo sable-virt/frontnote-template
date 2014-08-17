@@ -29,6 +29,18 @@ Type: `Array`
 
 全てのファイルオブジェクトが格納されている配列データ
 
+### css
+
+Type: `String`
+
+オプション:cssで指定したパスが入ったlinkタグ
+
+### script
+
+Type: `String`
+
+オプション:scriptで指定したパスが入ったscriptタグ
+
 ### helpers
 
 Type: `Object`
