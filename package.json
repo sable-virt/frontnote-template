@@ -1,0 +1,28 @@
+{
+  "name": "FrontNoteTemplate",
+  "version": "0.0.1",
+  "description": "StyleGuide Template for FrontNote",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^1.1.1",
+    "gulp": "^3.8.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-htmlhint": "0.0.8",
+    "gulp-if": "^1.2.4",
+    "gulp-imagemin": "^1.0.0",
+    "gulp-jshint": "^1.6.3",
+    "gulp-load-plugins": "^0.5.2",
+    "gulp-plumber": "^0.6.3",
+    "gulp-sass": "^0.7.2",
+    "gulp-uglify": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frontainer",
+  "license": "MIT"
+}

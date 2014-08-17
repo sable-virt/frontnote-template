@@ -1,0 +1,1716 @@
+/* line 1, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+html, body {
+  width: 100%;
+  height: 100%;
+  text-size-adjust: 100%;
+  background: #fff; }
+
+/* line 8, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+html, body, .sn-header, .sn-header .sn-link, .sn-header .sn-title, .sn-header .sn-copyright, .sn-container, .sn-sidebar, .sn-sidebar .sn-menu, .sn-sidebar .sn-separate, .sn-content, .sn-heading2, .sn-heading3, .sn-attribute, .sn-attribute .sn-attribute-item, .sn-comment, .sn-article, .sn-preview, .sn-pre, .sn-pre .sn-code, .sn-icon {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+  list-style: none;
+  quotes: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #333;
+  text-decoration: none; }
+  /* line 22, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  html:after, body:after, .sn-header:after, .sn-header .sn-link:after, .sn-header .sn-title:after, .sn-header .sn-copyright:after, .sn-container:after, .sn-sidebar:after, .sn-sidebar .sn-menu:after, .sn-sidebar .sn-separate:after, .sn-content:after, .sn-heading2:after, .sn-heading3:after, .sn-attribute:after, .sn-attribute .sn-attribute-item:after, .sn-comment:after, .sn-article:after, .sn-preview:after, .sn-pre:after, .sn-pre .sn-code:after, .sn-icon:after, html:before, body:before, .sn-header:before, .sn-header .sn-link:before, .sn-header .sn-title:before, .sn-header .sn-copyright:before, .sn-container:before, .sn-sidebar:before, .sn-sidebar .sn-menu:before, .sn-sidebar .sn-separate:before, .sn-content:before, .sn-heading2:before, .sn-heading3:before, .sn-attribute:before, .sn-attribute .sn-attribute-item:before, .sn-comment:before, .sn-article:before, .sn-preview:before, .sn-pre:before, .sn-pre .sn-code:before, .sn-icon:before {
+    content: '';
+    content: none; }
+  /* line 26, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  html :hover, body :hover, .sn-header :hover, .sn-header .sn-link :hover, .sn-header .sn-title :hover, .sn-header .sn-copyright :hover, .sn-container :hover, .sn-sidebar :hover, .sn-sidebar .sn-menu :hover, .sn-sidebar .sn-separate :hover, .sn-content :hover, .sn-heading2 :hover, .sn-heading3 :hover, .sn-attribute :hover, .sn-attribute .sn-attribute-item :hover, .sn-comment :hover, .sn-article :hover, .sn-preview :hover, .sn-pre :hover, .sn-pre .sn-code :hover, .sn-icon :hover {
+    color: #333;
+    text-decoration: none; }
+
+/* line 32, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 35, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+.sn-header, .sn-container, .sn-attribute {
+  *zoom: 1; }
+  /* line 37, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  .sn-header:before, .sn-container:before, .sn-attribute:before, .sn-header:after, .sn-container:after, .sn-attribute:after {
+    content: " ";
+    display: table; }
+  /* line 41, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  .sn-header:after, .sn-container:after, .sn-attribute:after {
+    clear: both; }
+
+/**
+ * GitHub theme
+ *
+ * @author Craig Campbell
+ * @version 1.0.4
+ */
+/* line 8, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+.sn-pre, .sn-code {
+  font-size: 14px;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  color: #333;
+  background: #f8f8f8;
+  border-radius: 3px; }
+
+/* line 15, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+.sn-pre {
+  border: 1px solid #ccc;
+  word-wrap: break-word;
+  padding: 6px 10px;
+  line-height: 19px;
+  margin-bottom: 20px; }
+  /* line 21, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .sn-code {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px; }
+  /* line 27, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .comment {
+    color: #998; }
+  /* line 30, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .support {
+    color: #0086B3; }
+  /* line 33, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .tag, .sn-pre .tag-name {
+    color: navy; }
+  /* line 36, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .keyword, .sn-pre .css-property, .sn-pre .vendor-prefix, .sn-pre .sass, .sn-pre .class, .sn-pre .id, .sn-pre .css-value, .sn-pre .entity.function, .sn-pre .storage.function {
+    font-weight: bold; }
+  /* line 39, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .css-property, .sn-pre .css-value, .sn-pre .vendor-prefix, .sn-pre .support.namespace {
+    color: #333; }
+  /* line 42, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .constant.numeric, .sn-pre .keyword.unit, .sn-pre .hex-color {
+    font-weight: normal;
+    color: #099; }
+  /* line 46, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .entity.class {
+    color: #458; }
+  /* line 49, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .entity.id, .sn-pre .entity.function {
+    color: #900; }
+  /* line 52, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .attribute, .sn-pre .variable {
+    color: teal; }
+  /* line 55, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .string, .sn-pre .support.value {
+    font-weight: normal;
+    color: #d14; }
+  /* line 59, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/highlight */
+  .sn-pre .regexp {
+    color: #009926; }
+
+/* line 1, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background: #3e50b4;
+  height: 64px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px;
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.4); }
+  /* line 14, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-header .sn-link {
+    color: #fff; }
+  /* line 18, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-header .sn-title {
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 64px;
+    font-size: 24px;
+    float: left; }
+  /* line 26, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-header .sn-copyright {
+    color: #fff;
+    float: right;
+    line-height: 64px;
+    font-size: 11px; }
+  /* line 33, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-header .sn-drawer-trigger {
+    float: left;
+    line-height: 64px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer; }
+  /* line 41, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-header .sn-icon-link {
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 20px;
+    color: #fff; }
+
+/* line 49, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-container {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 64px;
+  position: relative; }
+  /* line 59, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-container .sn-pagetop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: 400ms cubic-bezier(0.17, 0.67, 0.47, 1.31) -webkit-transform;
+    transition: 400ms cubic-bezier(0.17, 0.67, 0.47, 1.31) transform; }
+    /* line 65, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-container .sn-pagetop .sn-icon {
+      background: #fff;
+      padding: 15px;
+      border-radius: 50px;
+      box-shadow: 0px 0 6px rgba(0, 0, 0, 0.4); }
+      /* line 70, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+      .sn-container .sn-pagetop .sn-icon:hover {
+        background: #f8f8f8; }
+    /* line 74, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-container .sn-pagetop.sn-show {
+      -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      transform: scale(1, 1); }
+
+/* line 79, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-sidebar {
+  overflow: auto;
+  padding-top: 64px;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background: #f8f8f8;
+  box-shadow: 1px 0 2px #eee;
+  -webkit-transition: 300ms cubic-bezier(0.55, 0, 0.1, 1) margin;
+  transition: 300ms cubic-bezier(0.55, 0, 0.1, 1) margin; }
+  /* line 92, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-sidebar .sn-menu {
+    position: relative;
+    padding: 20px 12px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 0 #fff; }
+    /* line 99, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-sidebar .sn-menu.sn-is-active {
+      background: #eee; }
+      /* line 101, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+      .sn-sidebar .sn-menu.sn-is-active::after {
+        font-size: 12px;
+        font-family: fontawesome;
+        content: "\f054";
+        position: absolute;
+        right: 1em; }
+  /* line 111, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-sidebar .sn-separate {
+    padding: 10px 0;
+    border: 0;
+    display: block; }
+
+/* line 118, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-content {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 270px;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  -webkit-transition-property: margin, padding, -webkit-filter;
+  transition-property: margin, padding, filter; }
+
+/* line 128, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-heading2 {
+  font-size: 32px;
+  margin: 0.5em 0 1em; }
+  /* line 132, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-heading2 .sn-sub-heading {
+    font-size: 14px;
+    color: #666;
+    word-break: break-all; }
+
+/* line 138, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-heading3 {
+  font-size: 24px;
+  margin: 2em 0 1em; }
+
+/* line 143, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-attribute {
+  display: block; }
+  /* line 147, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-attribute .sn-attribute-item {
+    font-size: 12px;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
+    margin-right: 5px;
+    background: #f8f8f8; }
+    /* line 156, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-attribute .sn-attribute-item.sn-attribute-deprecated {
+      background: #cb4437;
+      color: #fff; }
+    /* line 160, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-attribute .sn-attribute-item.sn-attribute-mixin {
+      background: #0f9d58;
+      color: #fff; }
+    /* line 164, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-attribute .sn-attribute-item.sn-attribute-private {
+      background: #f4b400;
+      color: #fff; }
+
+/* line 170, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-comment {
+  font-size: 14px;
+  margin: 1em 0; }
+
+/* line 178, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-preview {
+  position: relative;
+  padding: 45px 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 2em 0; }
+  /* line 185, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-preview::after {
+    content: 'preview';
+    font-size: 12px;
+    background: #eee;
+    padding: 4px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #999;
+    border-radius: 0 0 3px 0; }
+
+/* line 197, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-pre {
+  position: relative;
+  padding: 34px 20px 22px;
+  background: #fafafa; }
+  /* line 202, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-pre .sn-code {
+    display: block;
+    line-height: 1.4;
+    overflow: auto; }
+    /* line 207, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-pre .sn-code:focus {
+      outline: 0; }
+  /* line 211, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-pre::after {
+    content: 'code';
+    font-size: 12px;
+    background: #eee;
+    color: #999;
+    padding: 4px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 3px 0; }
+
+/* line 224, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+svg.sn-ripple {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; }
+  /* line 233, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  svg.sn-ripple circle {
+    fill: rgba(255, 255, 255, 0.7); }
+
+/* line 238, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-mobile-visible {
+  display: none; }
+
+/* line 241, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-pc-visible {
+  display: block; }
+
+/* line 244, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+.sn-overflow {
+  overflow: hidden; }
+  /* line 246, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-overflow .sn-sidebar {
+    margin-left: 0; }
+  /* line 249, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+  .sn-overflow .sn-content {
+    padding: 20px;
+    margin-left: 250px;
+    -webkit-filter: blur(5px);
+    filter: blur(5px); }
+    /* line 253, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/sn */
+    .sn-overflow .sn-content::after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: rgba(255, 255, 255, 0.3); }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 16, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+.sn-icon {
+  position: relative;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1; }
+  /* line 25, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-glass:before {
+    content: "\f000"; }
+  /* line 26, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-music:before {
+    content: "\f001"; }
+  /* line 27, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-search:before {
+    content: "\f002"; }
+  /* line 28, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-envelope-o:before {
+    content: "\f003"; }
+  /* line 29, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-heart:before {
+    content: "\f004"; }
+  /* line 30, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-star:before {
+    content: "\f005"; }
+  /* line 31, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-star-o:before {
+    content: "\f006"; }
+  /* line 32, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-user:before {
+    content: "\f007"; }
+  /* line 33, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-film:before {
+    content: "\f008"; }
+  /* line 34, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-th-large:before {
+    content: "\f009"; }
+  /* line 35, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-th:before {
+    content: "\f00a"; }
+  /* line 36, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-th-list:before {
+    content: "\f00b"; }
+  /* line 37, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-check:before {
+    content: "\f00c"; }
+  /* line 38, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-times:before {
+    content: "\f00d"; }
+  /* line 39, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-search-plus:before {
+    content: "\f00e"; }
+  /* line 40, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-search-minus:before {
+    content: "\f010"; }
+  /* line 41, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-power-off:before {
+    content: "\f011"; }
+  /* line 42, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-signal:before {
+    content: "\f012"; }
+  /* line 43, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-gear:before, .sn-icon.sn-cog:before {
+    content: "\f013"; }
+  /* line 44, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-trash-o:before {
+    content: "\f014"; }
+  /* line 45, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-home:before {
+    content: "\f015"; }
+  /* line 46, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-o:before {
+    content: "\f016"; }
+  /* line 47, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-clock-o:before {
+    content: "\f017"; }
+  /* line 48, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-road:before {
+    content: "\f018"; }
+  /* line 49, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-download:before {
+    content: "\f019"; }
+  /* line 50, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-o-down:before {
+    content: "\f01a"; }
+  /* line 51, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-o-up:before {
+    content: "\f01b"; }
+  /* line 52, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-inbox:before {
+    content: "\f01c"; }
+  /* line 53, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-play-circle-o:before {
+    content: "\f01d"; }
+  /* line 54, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-rotate-right:before, .sn-icon.sn-repeat:before {
+    content: "\f01e"; }
+  /* line 55, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-refresh:before {
+    content: "\f021"; }
+  /* line 56, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-list-alt:before {
+    content: "\f022"; }
+  /* line 57, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-lock:before {
+    content: "\f023"; }
+  /* line 58, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-flag:before {
+    content: "\f024"; }
+  /* line 59, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-headphones:before {
+    content: "\f025"; }
+  /* line 60, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-volume-off:before {
+    content: "\f026"; }
+  /* line 61, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-volume-down:before {
+    content: "\f027"; }
+  /* line 62, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-volume-up:before {
+    content: "\f028"; }
+  /* line 63, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-qrcode:before {
+    content: "\f029"; }
+  /* line 64, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-barcode:before {
+    content: "\f02a"; }
+  /* line 65, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tag:before {
+    content: "\f02b"; }
+  /* line 66, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tags:before {
+    content: "\f02c"; }
+  /* line 67, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-book:before {
+    content: "\f02d"; }
+  /* line 68, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bookmark:before {
+    content: "\f02e"; }
+  /* line 69, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-print:before {
+    content: "\f02f"; }
+  /* line 70, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-camera:before {
+    content: "\f030"; }
+  /* line 71, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-font:before {
+    content: "\f031"; }
+  /* line 72, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bold:before {
+    content: "\f032"; }
+  /* line 73, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-italic:before {
+    content: "\f033"; }
+  /* line 74, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-text-height:before {
+    content: "\f034"; }
+  /* line 75, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-text-width:before {
+    content: "\f035"; }
+  /* line 76, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-align-left:before {
+    content: "\f036"; }
+  /* line 77, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-align-center:before {
+    content: "\f037"; }
+  /* line 78, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-align-right:before {
+    content: "\f038"; }
+  /* line 79, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-align-justify:before {
+    content: "\f039"; }
+  /* line 80, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-list:before {
+    content: "\f03a"; }
+  /* line 81, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-dedent:before, .sn-icon.sn-outdent:before {
+    content: "\f03b"; }
+  /* line 82, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-indent:before {
+    content: "\f03c"; }
+  /* line 83, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-video-camera:before {
+    content: "\f03d"; }
+  /* line 84, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-photo:before, .sn-icon.sn-image:before, .sn-icon.sn-picture-o:before {
+    content: "\f03e"; }
+  /* line 85, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pencil:before {
+    content: "\f040"; }
+  /* line 86, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-map-marker:before {
+    content: "\f041"; }
+  /* line 87, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-adjust:before {
+    content: "\f042"; }
+  /* line 88, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tint:before {
+    content: "\f043"; }
+  /* line 89, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-edit:before, .sn-icon.sn-pencil-square-o:before {
+    content: "\f044"; }
+  /* line 90, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-share-square-o:before {
+    content: "\f045"; }
+  /* line 91, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-check-square-o:before {
+    content: "\f046"; }
+  /* line 92, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrows:before {
+    content: "\f047"; }
+  /* line 93, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-step-backward:before {
+    content: "\f048"; }
+  /* line 94, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-fast-backward:before {
+    content: "\f049"; }
+  /* line 95, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-backward:before {
+    content: "\f04a"; }
+  /* line 96, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-play:before {
+    content: "\f04b"; }
+  /* line 97, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pause:before {
+    content: "\f04c"; }
+  /* line 98, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-stop:before {
+    content: "\f04d"; }
+  /* line 99, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-forward:before {
+    content: "\f04e"; }
+  /* line 100, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-fast-forward:before {
+    content: "\f050"; }
+  /* line 101, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-step-forward:before {
+    content: "\f051"; }
+  /* line 102, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-eject:before {
+    content: "\f052"; }
+  /* line 103, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-left:before {
+    content: "\f053"; }
+  /* line 104, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-right:before {
+    content: "\f054"; }
+  /* line 105, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-plus-circle:before {
+    content: "\f055"; }
+  /* line 106, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-minus-circle:before {
+    content: "\f056"; }
+  /* line 107, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-times-circle:before {
+    content: "\f057"; }
+  /* line 108, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-check-circle:before {
+    content: "\f058"; }
+  /* line 109, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-question-circle:before {
+    content: "\f059"; }
+  /* line 110, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-info-circle:before {
+    content: "\f05a"; }
+  /* line 111, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-crosshairs:before {
+    content: "\f05b"; }
+  /* line 112, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-times-circle-o:before {
+    content: "\f05c"; }
+  /* line 113, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-check-circle-o:before {
+    content: "\f05d"; }
+  /* line 114, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ban:before {
+    content: "\f05e"; }
+  /* line 115, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-left:before {
+    content: "\f060"; }
+  /* line 116, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-right:before {
+    content: "\f061"; }
+  /* line 117, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-up:before {
+    content: "\f062"; }
+  /* line 118, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-down:before {
+    content: "\f063"; }
+  /* line 119, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-mail-forward:before, .sn-icon.sn-share:before {
+    content: "\f064"; }
+  /* line 120, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-expand:before {
+    content: "\f065"; }
+  /* line 121, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-compress:before {
+    content: "\f066"; }
+  /* line 122, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-plus:before {
+    content: "\f067"; }
+  /* line 123, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-minus:before {
+    content: "\f068"; }
+  /* line 124, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-asterisk:before {
+    content: "\f069"; }
+  /* line 125, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-exclamation-circle:before {
+    content: "\f06a"; }
+  /* line 126, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-gift:before {
+    content: "\f06b"; }
+  /* line 127, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-leaf:before {
+    content: "\f06c"; }
+  /* line 128, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-fire:before {
+    content: "\f06d"; }
+  /* line 129, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-eye:before {
+    content: "\f06e"; }
+  /* line 130, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-eye-slash:before {
+    content: "\f070"; }
+  /* line 131, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-warning:before, .sn-icon.sn-exclamation-triangle:before {
+    content: "\f071"; }
+  /* line 132, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-plane:before {
+    content: "\f072"; }
+  /* line 133, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-calendar:before {
+    content: "\f073"; }
+  /* line 134, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-random:before {
+    content: "\f074"; }
+  /* line 135, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-comment:before {
+    content: "\f075"; }
+  /* line 136, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-magnet:before {
+    content: "\f076"; }
+  /* line 137, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-up:before {
+    content: "\f077"; }
+  /* line 138, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-down:before {
+    content: "\f078"; }
+  /* line 139, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-retweet:before {
+    content: "\f079"; }
+  /* line 140, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-shopping-cart:before {
+    content: "\f07a"; }
+  /* line 141, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-folder:before {
+    content: "\f07b"; }
+  /* line 142, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-folder-open:before {
+    content: "\f07c"; }
+  /* line 143, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrows-v:before {
+    content: "\f07d"; }
+  /* line 144, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrows-h:before {
+    content: "\f07e"; }
+  /* line 145, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bar-chart-o:before {
+    content: "\f080"; }
+  /* line 146, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-twitter-square:before {
+    content: "\f081"; }
+  /* line 147, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-facebook-square:before {
+    content: "\f082"; }
+  /* line 148, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-camera-retro:before {
+    content: "\f083"; }
+  /* line 149, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-key:before {
+    content: "\f084"; }
+  /* line 150, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-gears:before, .sn-icon.sn-cogs:before {
+    content: "\f085"; }
+  /* line 151, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-comments:before {
+    content: "\f086"; }
+  /* line 152, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-thumbs-o-up:before {
+    content: "\f087"; }
+  /* line 153, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-thumbs-o-down:before {
+    content: "\f088"; }
+  /* line 154, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-star-half:before {
+    content: "\f089"; }
+  /* line 155, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-heart-o:before {
+    content: "\f08a"; }
+  /* line 156, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sign-out:before {
+    content: "\f08b"; }
+  /* line 157, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-linkedin-square:before {
+    content: "\f08c"; }
+  /* line 158, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-thumb-tack:before {
+    content: "\f08d"; }
+  /* line 159, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-external-link:before {
+    content: "\f08e"; }
+  /* line 160, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sign-in:before {
+    content: "\f090"; }
+  /* line 161, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-trophy:before {
+    content: "\f091"; }
+  /* line 162, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-github-square:before {
+    content: "\f092"; }
+  /* line 163, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-upload:before {
+    content: "\f093"; }
+  /* line 164, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-lemon-o:before {
+    content: "\f094"; }
+  /* line 165, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-phone:before {
+    content: "\f095"; }
+  /* line 166, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-square-o:before {
+    content: "\f096"; }
+  /* line 167, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bookmark-o:before {
+    content: "\f097"; }
+  /* line 168, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-phone-square:before {
+    content: "\f098"; }
+  /* line 169, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-twitter:before {
+    content: "\f099"; }
+  /* line 170, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-facebook:before {
+    content: "\f09a"; }
+  /* line 171, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-github:before {
+    content: "\f09b"; }
+  /* line 172, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-unlock:before {
+    content: "\f09c"; }
+  /* line 173, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-credit-card:before {
+    content: "\f09d"; }
+  /* line 174, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-rss:before {
+    content: "\f09e"; }
+  /* line 175, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hdd-o:before {
+    content: "\f0a0"; }
+  /* line 176, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bullhorn:before {
+    content: "\f0a1"; }
+  /* line 177, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bell:before {
+    content: "\f0f3"; }
+  /* line 178, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-certificate:before {
+    content: "\f0a3"; }
+  /* line 179, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hand-o-right:before {
+    content: "\f0a4"; }
+  /* line 180, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hand-o-left:before {
+    content: "\f0a5"; }
+  /* line 181, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hand-o-up:before {
+    content: "\f0a6"; }
+  /* line 182, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hand-o-down:before {
+    content: "\f0a7"; }
+  /* line 183, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-left:before {
+    content: "\f0a8"; }
+  /* line 184, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-right:before {
+    content: "\f0a9"; }
+  /* line 185, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-up:before {
+    content: "\f0aa"; }
+  /* line 186, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-down:before {
+    content: "\f0ab"; }
+  /* line 187, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-globe:before {
+    content: "\f0ac"; }
+  /* line 188, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-wrench:before {
+    content: "\f0ad"; }
+  /* line 189, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tasks:before {
+    content: "\f0ae"; }
+  /* line 190, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-filter:before {
+    content: "\f0b0"; }
+  /* line 191, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-briefcase:before {
+    content: "\f0b1"; }
+  /* line 192, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrows-alt:before {
+    content: "\f0b2"; }
+  /* line 193, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-group:before, .sn-icon.sn-users:before {
+    content: "\f0c0"; }
+  /* line 194, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chain:before, .sn-icon.sn-link:before {
+    content: "\f0c1"; }
+  /* line 195, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cloud:before {
+    content: "\f0c2"; }
+  /* line 196, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-flask:before {
+    content: "\f0c3"; }
+  /* line 197, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cut:before, .sn-icon.sn-scissors:before {
+    content: "\f0c4"; }
+  /* line 198, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-copy:before, .sn-icon.sn-files-o:before {
+    content: "\f0c5"; }
+  /* line 199, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-paperclip:before {
+    content: "\f0c6"; }
+  /* line 200, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-save:before, .sn-icon.sn-floppy-o:before {
+    content: "\f0c7"; }
+  /* line 201, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-square:before {
+    content: "\f0c8"; }
+  /* line 202, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-navicon:before, .sn-icon.sn-reorder:before, .sn-icon.sn-bars:before {
+    content: "\f0c9"; }
+  /* line 203, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-list-ul:before {
+    content: "\f0ca"; }
+  /* line 204, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-list-ol:before {
+    content: "\f0cb"; }
+  /* line 205, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-strikethrough:before {
+    content: "\f0cc"; }
+  /* line 206, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-underline:before {
+    content: "\f0cd"; }
+  /* line 207, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-table:before {
+    content: "\f0ce"; }
+  /* line 208, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-magic:before {
+    content: "\f0d0"; }
+  /* line 209, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-truck:before {
+    content: "\f0d1"; }
+  /* line 210, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pinterest:before {
+    content: "\f0d2"; }
+  /* line 211, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pinterest-square:before {
+    content: "\f0d3"; }
+  /* line 212, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-google-plus-square:before {
+    content: "\f0d4"; }
+  /* line 213, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-google-plus:before {
+    content: "\f0d5"; }
+  /* line 214, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-money:before {
+    content: "\f0d6"; }
+  /* line 215, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-caret-down:before {
+    content: "\f0d7"; }
+  /* line 216, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-caret-up:before {
+    content: "\f0d8"; }
+  /* line 217, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-caret-left:before {
+    content: "\f0d9"; }
+  /* line 218, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-caret-right:before {
+    content: "\f0da"; }
+  /* line 219, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-columns:before {
+    content: "\f0db"; }
+  /* line 220, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-unsorted:before, .sn-icon.sn-sort:before {
+    content: "\f0dc"; }
+  /* line 221, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-down:before, .sn-icon.sn-sort-desc:before {
+    content: "\f0dd"; }
+  /* line 222, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-up:before, .sn-icon.sn-sort-asc:before {
+    content: "\f0de"; }
+  /* line 223, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-envelope:before {
+    content: "\f0e0"; }
+  /* line 224, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-linkedin:before {
+    content: "\f0e1"; }
+  /* line 225, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-rotate-left:before, .sn-icon.sn-undo:before {
+    content: "\f0e2"; }
+  /* line 226, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-legal:before, .sn-icon.sn-gavel:before {
+    content: "\f0e3"; }
+  /* line 227, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-dashboard:before, .sn-icon.sn-tachometer:before {
+    content: "\f0e4"; }
+  /* line 228, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-comment-o:before {
+    content: "\f0e5"; }
+  /* line 229, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-comments-o:before {
+    content: "\f0e6"; }
+  /* line 230, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-flash:before, .sn-icon.sn-bolt:before {
+    content: "\f0e7"; }
+  /* line 231, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sitemap:before {
+    content: "\f0e8"; }
+  /* line 232, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-umbrella:before {
+    content: "\f0e9"; }
+  /* line 233, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-paste:before, .sn-icon.sn-clipboard:before {
+    content: "\f0ea"; }
+  /* line 234, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-lightbulb-o:before {
+    content: "\f0eb"; }
+  /* line 235, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-exchange:before {
+    content: "\f0ec"; }
+  /* line 236, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cloud-download:before {
+    content: "\f0ed"; }
+  /* line 237, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cloud-upload:before {
+    content: "\f0ee"; }
+  /* line 238, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-user-md:before {
+    content: "\f0f0"; }
+  /* line 239, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-stethoscope:before {
+    content: "\f0f1"; }
+  /* line 240, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-suitcase:before {
+    content: "\f0f2"; }
+  /* line 241, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bell-o:before {
+    content: "\f0a2"; }
+  /* line 242, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-coffee:before {
+    content: "\f0f4"; }
+  /* line 243, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cutlery:before {
+    content: "\f0f5"; }
+  /* line 244, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-text-o:before {
+    content: "\f0f6"; }
+  /* line 245, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-building-o:before {
+    content: "\f0f7"; }
+  /* line 246, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hospital-o:before {
+    content: "\f0f8"; }
+  /* line 247, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ambulance:before {
+    content: "\f0f9"; }
+  /* line 248, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-medkit:before {
+    content: "\f0fa"; }
+  /* line 249, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-fighter-jet:before {
+    content: "\f0fb"; }
+  /* line 250, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-beer:before {
+    content: "\f0fc"; }
+  /* line 251, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-h-square:before {
+    content: "\f0fd"; }
+  /* line 252, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-plus-square:before {
+    content: "\f0fe"; }
+  /* line 253, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-double-left:before {
+    content: "\f100"; }
+  /* line 254, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-double-right:before {
+    content: "\f101"; }
+  /* line 255, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-double-up:before {
+    content: "\f102"; }
+  /* line 256, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-double-down:before {
+    content: "\f103"; }
+  /* line 257, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-left:before {
+    content: "\f104"; }
+  /* line 258, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-right:before {
+    content: "\f105"; }
+  /* line 259, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-up:before {
+    content: "\f106"; }
+  /* line 260, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-angle-down:before {
+    content: "\f107"; }
+  /* line 261, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-desktop:before {
+    content: "\f108"; }
+  /* line 262, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-laptop:before {
+    content: "\f109"; }
+  /* line 263, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tablet:before {
+    content: "\f10a"; }
+  /* line 264, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-mobile-phone:before, .sn-icon.sn-mobile:before {
+    content: "\f10b"; }
+  /* line 265, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-circle-o:before {
+    content: "\f10c"; }
+  /* line 266, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-quote-left:before {
+    content: "\f10d"; }
+  /* line 267, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-quote-right:before {
+    content: "\f10e"; }
+  /* line 268, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-spinner:before {
+    content: "\f110"; }
+  /* line 269, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-circle:before {
+    content: "\f111"; }
+  /* line 270, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-mail-reply:before, .sn-icon.sn-reply:before {
+    content: "\f112"; }
+  /* line 271, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-github-alt:before {
+    content: "\f113"; }
+  /* line 272, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-folder-o:before {
+    content: "\f114"; }
+  /* line 273, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-folder-open-o:before {
+    content: "\f115"; }
+  /* line 274, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-smile-o:before {
+    content: "\f118"; }
+  /* line 275, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-frown-o:before {
+    content: "\f119"; }
+  /* line 276, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-meh-o:before {
+    content: "\f11a"; }
+  /* line 277, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-gamepad:before {
+    content: "\f11b"; }
+  /* line 278, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-keyboard-o:before {
+    content: "\f11c"; }
+  /* line 279, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-flag-o:before {
+    content: "\f11d"; }
+  /* line 280, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-flag-checkered:before {
+    content: "\f11e"; }
+  /* line 281, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-terminal:before {
+    content: "\f120"; }
+  /* line 282, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-code:before {
+    content: "\f121"; }
+  /* line 283, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-mail-reply-all:before, .sn-icon.sn-reply-all:before {
+    content: "\f122"; }
+  /* line 284, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-star-half-empty:before, .sn-icon.sn-star-half-full:before, .sn-icon.sn-star-half-o:before {
+    content: "\f123"; }
+  /* line 285, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-location-arrow:before {
+    content: "\f124"; }
+  /* line 286, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-crop:before {
+    content: "\f125"; }
+  /* line 287, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-code-fork:before {
+    content: "\f126"; }
+  /* line 288, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-unlink:before, .sn-icon.sn-chain-broken:before {
+    content: "\f127"; }
+  /* line 289, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-question:before {
+    content: "\f128"; }
+  /* line 290, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-info:before {
+    content: "\f129"; }
+  /* line 291, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-exclamation:before {
+    content: "\f12a"; }
+  /* line 292, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-superscript:before {
+    content: "\f12b"; }
+  /* line 293, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-subscript:before {
+    content: "\f12c"; }
+  /* line 294, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-eraser:before {
+    content: "\f12d"; }
+  /* line 295, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-puzzle-piece:before {
+    content: "\f12e"; }
+  /* line 296, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-microphone:before {
+    content: "\f130"; }
+  /* line 297, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-microphone-slash:before {
+    content: "\f131"; }
+  /* line 298, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-shield:before {
+    content: "\f132"; }
+  /* line 299, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-calendar-o:before {
+    content: "\f133"; }
+  /* line 300, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-fire-extinguisher:before {
+    content: "\f134"; }
+  /* line 301, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-rocket:before {
+    content: "\f135"; }
+  /* line 302, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-maxcdn:before {
+    content: "\f136"; }
+  /* line 303, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-circle-left:before {
+    content: "\f137"; }
+  /* line 304, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-circle-right:before {
+    content: "\f138"; }
+  /* line 305, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-circle-up:before {
+    content: "\f139"; }
+  /* line 306, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-chevron-circle-down:before {
+    content: "\f13a"; }
+  /* line 307, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-html5:before {
+    content: "\f13b"; }
+  /* line 308, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-css3:before {
+    content: "\f13c"; }
+  /* line 309, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-anchor:before {
+    content: "\f13d"; }
+  /* line 310, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-unlock-alt:before {
+    content: "\f13e"; }
+  /* line 311, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bullseye:before {
+    content: "\f140"; }
+  /* line 312, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ellipsis-h:before {
+    content: "\f141"; }
+  /* line 313, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ellipsis-v:before {
+    content: "\f142"; }
+  /* line 314, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-rss-square:before {
+    content: "\f143"; }
+  /* line 315, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-play-circle:before {
+    content: "\f144"; }
+  /* line 316, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ticket:before {
+    content: "\f145"; }
+  /* line 317, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-minus-square:before {
+    content: "\f146"; }
+  /* line 318, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-minus-square-o:before {
+    content: "\f147"; }
+  /* line 319, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-level-up:before {
+    content: "\f148"; }
+  /* line 320, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-level-down:before {
+    content: "\f149"; }
+  /* line 321, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-check-square:before {
+    content: "\f14a"; }
+  /* line 322, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pencil-square:before {
+    content: "\f14b"; }
+  /* line 323, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-external-link-square:before {
+    content: "\f14c"; }
+  /* line 324, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-share-square:before {
+    content: "\f14d"; }
+  /* line 325, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-compass:before {
+    content: "\f14e"; }
+  /* line 326, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-toggle-down:before, .sn-icon.sn-caret-square-o-down:before {
+    content: "\f150"; }
+  /* line 327, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-toggle-up:before, .sn-icon.sn-caret-square-o-up:before {
+    content: "\f151"; }
+  /* line 328, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-toggle-right:before, .sn-icon.sn-caret-square-o-right:before {
+    content: "\f152"; }
+  /* line 329, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-euro:before, .sn-icon.sn-eur:before {
+    content: "\f153"; }
+  /* line 330, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-gbp:before {
+    content: "\f154"; }
+  /* line 331, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-dollar:before, .sn-icon.sn-usd:before {
+    content: "\f155"; }
+  /* line 332, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-rupee:before, .sn-icon.sn-inr:before {
+    content: "\f156"; }
+  /* line 333, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cny:before, .sn-icon.sn-rmb:before, .sn-icon.sn-yen:before, .sn-icon.sn-jpy:before {
+    content: "\f157"; }
+  /* line 334, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ruble:before, .sn-icon.sn-rouble:before, .sn-icon.sn-rub:before {
+    content: "\f158"; }
+  /* line 335, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-won:before, .sn-icon.sn-krw:before {
+    content: "\f159"; }
+  /* line 336, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bitcoin:before, .sn-icon.sn-btc:before {
+    content: "\f15a"; }
+  /* line 337, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file:before {
+    content: "\f15b"; }
+  /* line 338, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-text:before {
+    content: "\f15c"; }
+  /* line 339, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-alpha-asc:before {
+    content: "\f15d"; }
+  /* line 340, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-alpha-desc:before {
+    content: "\f15e"; }
+  /* line 341, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-amount-asc:before {
+    content: "\f160"; }
+  /* line 342, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-amount-desc:before {
+    content: "\f161"; }
+  /* line 343, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-numeric-asc:before {
+    content: "\f162"; }
+  /* line 344, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sort-numeric-desc:before {
+    content: "\f163"; }
+  /* line 345, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-thumbs-up:before {
+    content: "\f164"; }
+  /* line 346, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-thumbs-down:before {
+    content: "\f165"; }
+  /* line 347, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-youtube-square:before {
+    content: "\f166"; }
+  /* line 348, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-youtube:before {
+    content: "\f167"; }
+  /* line 349, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-xing:before {
+    content: "\f168"; }
+  /* line 350, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-xing-square:before {
+    content: "\f169"; }
+  /* line 351, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-youtube-play:before {
+    content: "\f16a"; }
+  /* line 352, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-dropbox:before {
+    content: "\f16b"; }
+  /* line 353, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-stack-overflow:before {
+    content: "\f16c"; }
+  /* line 354, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-instagram:before {
+    content: "\f16d"; }
+  /* line 355, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-flickr:before {
+    content: "\f16e"; }
+  /* line 356, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-adn:before {
+    content: "\f170"; }
+  /* line 357, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bitbucket:before {
+    content: "\f171"; }
+  /* line 358, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bitbucket-square:before {
+    content: "\f172"; }
+  /* line 359, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tumblr:before {
+    content: "\f173"; }
+  /* line 360, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tumblr-square:before {
+    content: "\f174"; }
+  /* line 361, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-long-arrow-down:before {
+    content: "\f175"; }
+  /* line 362, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-long-arrow-up:before {
+    content: "\f176"; }
+  /* line 363, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-long-arrow-left:before {
+    content: "\f177"; }
+  /* line 364, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-long-arrow-right:before {
+    content: "\f178"; }
+  /* line 365, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-apple:before {
+    content: "\f179"; }
+  /* line 366, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-windows:before {
+    content: "\f17a"; }
+  /* line 367, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-android:before {
+    content: "\f17b"; }
+  /* line 368, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-linux:before {
+    content: "\f17c"; }
+  /* line 369, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-dribbble:before {
+    content: "\f17d"; }
+  /* line 370, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-skype:before {
+    content: "\f17e"; }
+  /* line 371, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-foursquare:before {
+    content: "\f180"; }
+  /* line 372, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-trello:before {
+    content: "\f181"; }
+  /* line 373, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-female:before {
+    content: "\f182"; }
+  /* line 374, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-male:before {
+    content: "\f183"; }
+  /* line 375, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-gittip:before {
+    content: "\f184"; }
+  /* line 376, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sun-o:before {
+    content: "\f185"; }
+  /* line 377, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-moon-o:before {
+    content: "\f186"; }
+  /* line 378, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-archive:before {
+    content: "\f187"; }
+  /* line 379, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bug:before {
+    content: "\f188"; }
+  /* line 380, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-vk:before {
+    content: "\f189"; }
+  /* line 381, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-weibo:before {
+    content: "\f18a"; }
+  /* line 382, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-renren:before {
+    content: "\f18b"; }
+  /* line 383, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pagelines:before {
+    content: "\f18c"; }
+  /* line 384, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-stack-exchange:before {
+    content: "\f18d"; }
+  /* line 385, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-o-right:before {
+    content: "\f18e"; }
+  /* line 386, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-arrow-circle-o-left:before {
+    content: "\f190"; }
+  /* line 387, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-toggle-left:before, .sn-icon.sn-caret-square-o-left:before {
+    content: "\f191"; }
+  /* line 388, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-dot-circle-o:before {
+    content: "\f192"; }
+  /* line 389, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-wheelchair:before {
+    content: "\f193"; }
+  /* line 390, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-vimeo-square:before {
+    content: "\f194"; }
+  /* line 391, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-turkish-lira:before, .sn-icon.sn-try:before {
+    content: "\f195"; }
+  /* line 392, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-plus-square-o:before {
+    content: "\f196"; }
+  /* line 393, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-space-shuttle:before {
+    content: "\f197"; }
+  /* line 394, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-slack:before {
+    content: "\f198"; }
+  /* line 395, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-envelope-square:before {
+    content: "\f199"; }
+  /* line 396, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-wordpress:before {
+    content: "\f19a"; }
+  /* line 397, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-openid:before {
+    content: "\f19b"; }
+  /* line 398, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-institution:before, .sn-icon.sn-bank:before, .sn-icon.sn-university:before {
+    content: "\f19c"; }
+  /* line 399, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-mortar-board:before, .sn-icon.sn-graduation-cap:before {
+    content: "\f19d"; }
+  /* line 400, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-yahoo:before {
+    content: "\f19e"; }
+  /* line 401, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-google:before {
+    content: "\f1a0"; }
+  /* line 402, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-reddit:before {
+    content: "\f1a1"; }
+  /* line 403, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-reddit-square:before {
+    content: "\f1a2"; }
+  /* line 404, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-stumbleupon-circle:before {
+    content: "\f1a3"; }
+  /* line 405, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-stumbleupon:before {
+    content: "\f1a4"; }
+  /* line 406, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-delicious:before {
+    content: "\f1a5"; }
+  /* line 407, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-digg:before {
+    content: "\f1a6"; }
+  /* line 408, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pied-piper-square:before, .sn-icon.sn-pied-piper:before {
+    content: "\f1a7"; }
+  /* line 409, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-pied-piper-alt:before {
+    content: "\f1a8"; }
+  /* line 410, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-drupal:before {
+    content: "\f1a9"; }
+  /* line 411, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-joomla:before {
+    content: "\f1aa"; }
+  /* line 412, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-language:before {
+    content: "\f1ab"; }
+  /* line 413, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-fax:before {
+    content: "\f1ac"; }
+  /* line 414, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-building:before {
+    content: "\f1ad"; }
+  /* line 415, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-child:before {
+    content: "\f1ae"; }
+  /* line 416, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-paw:before {
+    content: "\f1b0"; }
+  /* line 417, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-spoon:before {
+    content: "\f1b1"; }
+  /* line 418, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cube:before {
+    content: "\f1b2"; }
+  /* line 419, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cubes:before {
+    content: "\f1b3"; }
+  /* line 420, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-behance:before {
+    content: "\f1b4"; }
+  /* line 421, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-behance-square:before {
+    content: "\f1b5"; }
+  /* line 422, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-steam:before {
+    content: "\f1b6"; }
+  /* line 423, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-steam-square:before {
+    content: "\f1b7"; }
+  /* line 424, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-recycle:before {
+    content: "\f1b8"; }
+  /* line 425, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-automobile:before, .sn-icon.sn-car:before {
+    content: "\f1b9"; }
+  /* line 426, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-cab:before, .sn-icon.sn-taxi:before {
+    content: "\f1ba"; }
+  /* line 427, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tree:before {
+    content: "\f1bb"; }
+  /* line 428, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-spotify:before {
+    content: "\f1bc"; }
+  /* line 429, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-deviantart:before {
+    content: "\f1bd"; }
+  /* line 430, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-soundcloud:before {
+    content: "\f1be"; }
+  /* line 431, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-database:before {
+    content: "\f1c0"; }
+  /* line 432, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-pdf-o:before {
+    content: "\f1c1"; }
+  /* line 433, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-word-o:before {
+    content: "\f1c2"; }
+  /* line 434, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-excel-o:before {
+    content: "\f1c3"; }
+  /* line 435, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-powerpoint-o:before {
+    content: "\f1c4"; }
+  /* line 436, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-photo-o:before, .sn-icon.sn-file-picture-o:before, .sn-icon.sn-file-image-o:before {
+    content: "\f1c5"; }
+  /* line 437, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-zip-o:before, .sn-icon.sn-file-archive-o:before {
+    content: "\f1c6"; }
+  /* line 438, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-sound-o:before, .sn-icon.sn-file-audio-o:before {
+    content: "\f1c7"; }
+  /* line 439, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-movie-o:before, .sn-icon.sn-file-video-o:before {
+    content: "\f1c8"; }
+  /* line 440, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-file-code-o:before {
+    content: "\f1c9"; }
+  /* line 441, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-vine:before {
+    content: "\f1ca"; }
+  /* line 442, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-codepen:before {
+    content: "\f1cb"; }
+  /* line 443, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-jsfiddle:before {
+    content: "\f1cc"; }
+  /* line 444, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-life-bouy:before, .sn-icon.sn-life-saver:before, .sn-icon.sn-support:before, .sn-icon.sn-life-ring:before {
+    content: "\f1cd"; }
+  /* line 445, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-circle-o-notch:before {
+    content: "\f1ce"; }
+  /* line 446, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ra:before, .sn-icon.sn-rebel:before {
+    content: "\f1d0"; }
+  /* line 447, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-ge:before, .sn-icon.sn-empire:before {
+    content: "\f1d1"; }
+  /* line 448, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-git-square:before {
+    content: "\f1d2"; }
+  /* line 449, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-git:before {
+    content: "\f1d3"; }
+  /* line 450, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-hacker-news:before {
+    content: "\f1d4"; }
+  /* line 451, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-tencent-weibo:before {
+    content: "\f1d5"; }
+  /* line 452, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-qq:before {
+    content: "\f1d6"; }
+  /* line 453, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-wechat:before, .sn-icon.sn-weixin:before {
+    content: "\f1d7"; }
+  /* line 454, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-send:before, .sn-icon.sn-paper-plane:before {
+    content: "\f1d8"; }
+  /* line 455, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-send-o:before, .sn-icon.sn-paper-plane-o:before {
+    content: "\f1d9"; }
+  /* line 456, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-history:before {
+    content: "\f1da"; }
+  /* line 457, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-circle-thin:before {
+    content: "\f1db"; }
+  /* line 458, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-header:before {
+    content: "\f1dc"; }
+  /* line 459, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-paragraph:before {
+    content: "\f1dd"; }
+  /* line 460, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-sliders:before {
+    content: "\f1de"; }
+  /* line 461, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-share-alt:before {
+    content: "\f1e0"; }
+  /* line 462, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-share-alt-square:before {
+    content: "\f1e1"; }
+  /* line 463, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/icon */
+  .sn-icon.sn-bomb:before {
+    content: "\f1e2"; }
+
+@media screen and (max-width: 680px) {
+  /* line 2, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/media */
+  .sn-content {
+    padding: 20px; }
+  /* line 5, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/media */
+  .sn-sidebar {
+    margin-left: -250px; }
+  /* line 8, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/media */
+  .sn-mobile-visible {
+    display: block; }
+  /* line 11, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/media */
+  .sn-pc-visible {
+    display: none; } }

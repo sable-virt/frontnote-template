@@ -1,0 +1,12 @@
+{
+    "BASE_PATH": "app",
+    "DEST_PATH": "release",
+    "autoprefixer": {
+        "browser": ["last 3 version", "ie >= 8", "Android 4.0"]
+    },
+    "sass": {
+        "errLogToConsole": true,
+        "sourceComments": "normal",
+        "sourceMap": true
+    }
+}

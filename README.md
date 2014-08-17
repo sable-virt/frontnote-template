@@ -1,4 +1,91 @@
-stylenote-template
-==================
+# frontnote-template
 
-StyleGuideジェネレーターStyleNoteのデフォルトテンプレート
+StyleGuideジェネレーターFrontNoteのデフォルトテンプレート
+
+[FrontNote](https://www.npmjs.org/package/frontnote)
+
+## 使い方
+
+実際の使い方はrelease/index.htmlのソースをご覧ください。
+
+## 取得可能な値
+
+### overview
+
+Type: `Boolean`
+
+overviewページかどうか。  
+overviewページではcurrentにマークダウンを読み込んでHTML化したデータが格納されます。
+
+### current
+
+Type: `Object`
+
+現在のファイルオブジェクト
+
+### files
+
+Type: `Array`
+
+全てのファイルオブジェクトが格納されている配列データ
+
+### helpers
+
+Type: `Object`
+
+ヘルパー関数オブジェクト
+
+#### isCurrent(current,file)
+
+Param: `current` currentファイルオブジェクト  
+Param: `file` ファイルオブジェクト  
+Return `Boolean`
+
+currentとfileに渡したファイルオブジェクトが一致したらtrueを返却
+
+## ファイルオブジェクト
+
+### file.file
+
+読み込んだファイルのパス
+
+### file.url
+
+生成されるスタイルガイドのファイルパス
+
+### file.dirs
+
+読み込んだファイルのパスをディレクトリごとに区切った配列
+
+### file.ext
+
+読み込んだファイルの拡張子
+
+### sections
+
+読み込んだファイルのコメントセクションが格納された配列
+
+### overview
+
+読み込んだファイルのoverviewオブジェクト
+
+* title - overviewタイトル
+* comment - overviewコメント
+
+## コメントセクション
+
+### section.title
+
+セクションタイトル
+
+### section.comment
+
+セクションコメント
+
+### section.attributes
+
+セクションに設定された属性値が入った配列
+
+### section.code
+
+セクションコード
