@@ -10,6 +10,12 @@ StyleGuideジェネレーターFrontNoteのデフォルトテンプレート
 
 ## 取得可能な値
 
+### title
+
+Type: `String`
+
+オプションで指定されたスタイルガイドのタイトル文字列
+
 ### overview
 
 Type: `Boolean`
