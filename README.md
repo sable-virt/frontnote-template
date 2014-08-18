@@ -111,6 +111,10 @@ attributesにattrが含まれているかどうかを返却
 ### section.attributes
 
 セクションに設定された属性値が入った配列
+以下の属性値だとラベルの色が変わります
+
+* deprecated または 非推奨
+* todo
 
 ### section.code
 

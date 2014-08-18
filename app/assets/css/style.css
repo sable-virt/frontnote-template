@@ -265,28 +265,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
       background: #cb4437;
       color: #fff; }
     /* line 160, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
-    .fn-attribute .fn-attribute-item.fn-attribute-mixin {
-      background: #0f9d58;
-      color: #fff; }
-    /* line 164, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
-    .fn-attribute .fn-attribute-item.fn-attribute-private {
+    .fn-attribute .fn-attribute-item.fn-attribute-todo {
       background: #f4b400;
       color: #fff; }
 
-/* line 170, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 166, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 .fn-comment {
   font-size: 14px;
   margin: 1em 0;
   line-height: 1.4; }
 
-/* line 179, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 175, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 .fn-preview {
   position: relative;
   padding: 45px 20px 30px;
   border: 1px solid #ccc;
   border-radius: 2px;
   margin: 2em 0; }
-  /* line 186, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 182, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-preview::after {
     content: 'preview';
     font-size: 12px;
@@ -298,26 +294,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     color: #999;
     border-radius: 0 0 3px 0; }
 
-/* line 198, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 194, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 .fn-pre {
   position: relative;
   padding: 34px 20px 22px;
   background: #fafafa; }
-  /* line 203, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 199, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-pre .fn-icon {
     position: absolute;
     top: 0.5em;
     right: 1em;
     cursor: pointer; }
-  /* line 209, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 205, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-pre .fn-code {
     display: block;
     line-height: 1.4;
     overflow: auto; }
-    /* line 214, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+    /* line 210, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
     .fn-pre .fn-code:focus {
       outline: 0; }
-  /* line 218, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 214, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-pre::after {
     content: 'code';
     font-size: 12px;
@@ -329,7 +325,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     left: 0;
     border-radius: 0 0 3px 0; }
 
-/* line 231, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 227, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 svg.fn-ripple {
   pointer-events: none;
   position: absolute;
@@ -339,31 +335,31 @@ svg.fn-ripple {
   height: 100%;
   overflow: hidden;
   z-index: -1; }
-  /* line 240, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 236, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   svg.fn-ripple circle {
     fill: rgba(255, 255, 255, 0.7); }
 
-/* line 245, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 241, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 .fn-mobile-visible {
   display: none; }
 
-/* line 248, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 244, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 .fn-pc-visible {
   display: block; }
 
-/* line 251, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+/* line 247, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
 .fn-overflow {
   overflow: hidden; }
-  /* line 253, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 249, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-overflow .fn-sidebar {
     margin-left: 0; }
-  /* line 256, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 252, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-overflow .fn-content {
     padding: 20px;
     margin-left: 250px;
     -webkit-filter: blur(5px);
     filter: blur(5px); }
-    /* line 260, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+    /* line 256, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
     .fn-overflow .fn-content::after {
       content: '';
       position: absolute;
