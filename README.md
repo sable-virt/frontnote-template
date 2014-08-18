@@ -61,6 +61,14 @@ Return `Boolean`
 
 currentとfileに渡したファイルオブジェクトが一致したらtrueを返却
 
+#### hasAttribute(attributes,attr)
+
+Param: `attributes` 属性値が入った配列
+Param: `attr` 調べる属性
+Return `Boolean`
+
+attributesにattrが含まれているかどうかを返却
+
 ## ファイルオブジェクト
 
 ### file.file
