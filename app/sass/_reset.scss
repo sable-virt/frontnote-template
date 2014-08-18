@@ -3,9 +3,9 @@ html, body {
 	height: 100%;
 	text-size-adjust: 100%;
 	background: #fff;
-	@extend %sn-reset;
+	@extend %fn-reset;
 }
-%sn-reset {
+%fn-reset {
 	margin: 0;
 	padding: 0;
 	border: 0;

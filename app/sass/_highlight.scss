@@ -5,20 +5,20 @@
  * @version 1.0.4
  */
 
-.sn-pre, .sn-code {
+.fn-pre, .fn-code {
 	font-size: 14px;
 	font-family: Consolas, 'Liberation Mono', Courier, monospace;
 	color: #333;
 	background: #f8f8f8;
 	border-radius: 3px;
 }
-.sn-pre {
+.fn-pre {
 	border: 1px solid #ccc;
 	word-wrap: break-word;
 	padding: 6px 10px;
 	line-height: 19px;
 	margin-bottom: 20px;
-	.sn-code {
+	.fn-code {
 		border: 0px;
 		padding: 0px;
 		margin: 0px;

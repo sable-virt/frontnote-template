@@ -30,7 +30,7 @@ $.fn.rippleEffect = function() {
             }
             $svg.remove();
         }
-        $this.append('<svg class="sn-ripple"><circle fill-opacity="0.8" cx="'+pointX+'" cy="'+pointY+'" radius="0"></circle></svg>');
+        $this.append('<svg class="fn-ripple"><circle fill-opacity="0.8" cx="'+pointX+'" cy="'+pointY+'" radius="0"></circle></svg>');
 
         var $circle = $this.find('circle');
         var $effect = $({
@@ -55,7 +55,7 @@ $.fn.rippleEffect = function() {
 
     function endRipple(e) {
         var $this = $(this),
-            $svg = $this.find('svg.sn-ripple');
+            $svg = $this.find('svg.fn-ripple');
             $circle = $svg.find('circle');
         if ($circle.length === 0) return;
 

@@ -1,5 +1,5 @@
-.sn-header {
-	@extend %sn-reset;
+.fn-header {
+	@extend %fn-reset;
 	@extend %clearfix;
 	position: fixed;
 	top: 0;
@@ -11,26 +11,26 @@
 	box-sizing: border-box;
 	padding: 0 20px;
 	box-shadow: $base-shadow;
-	.sn-link {
-		@extend %sn-reset;
+	.fn-link {
+		@extend %fn-reset;
 		color: $header-font-color;
 	}
-	.sn-title {
-		@extend %sn-reset;
+	.fn-title {
+		@extend %fn-reset;
 		color: $header-font-color;
 		letter-spacing: 2px;
 		line-height: $header-height;
 		font-size: 24px;
 		float: left;
 	}
-	.sn-copyright {
-		@extend %sn-reset;
+	.fn-copyright {
+		@extend %fn-reset;
 		color: $header-font-color;
 		float: right;
 		line-height: $header-height;
 		font-size: 11px;
 	}
-	.sn-drawer-trigger {
+	.fn-drawer-trigger {
 		float: left;
 		line-height: $header-height;
 		color: #fff;
@@ -38,7 +38,7 @@
 		cursor: pointer;
 
 	}
-	.sn-icon-link {
+	.fn-icon-link {
 		overflow: hidden;
 		border-radius: 50px;
 		padding: 20px;
@@ -46,8 +46,8 @@
 	}
 }
 
-.sn-container {
-	@extend %sn-reset;
+.fn-container {
+	@extend %fn-reset;
 	@extend %clearfix;
 	box-sizing: border-box;
 	width: 100%;
@@ -56,13 +56,13 @@
 	position: relative;
 
 
-	.sn-pagetop {
+	.fn-pagetop {
 		position: fixed;
 		right: 15px;
 		bottom: 15px;
 		transform: scale(0,0);
 		transition: 400ms cubic-bezier(.17,.67,.47,1.31) transform;
-		.sn-icon {
+		.fn-icon {
 			background: #fff;
 			padding: 15px;
 			border-radius: 50px;
@@ -71,13 +71,13 @@
 				background: #f8f8f8;
 			}
 		}
-		&.sn-show {
+		&.fn-show {
 			transform: scale(1,1);
 		}
 	}
 }
-.sn-sidebar {
-	@extend %sn-reset;
+.fn-sidebar {
+	@extend %fn-reset;
 	overflow: auto;
 	padding-top: 64px;
 	width: $sidebar-width;
@@ -89,14 +89,14 @@
 	background: #f8f8f8;
 	box-shadow: 1px 0 2px #eee;
 	transition: 300ms cubic-bezier(.55,0,.1,1) margin;
-	.sn-menu {
-		@extend %sn-reset;
+	.fn-menu {
+		@extend %fn-reset;
 		position: relative;
 		padding: 20px 12px;
 		display: block;
 		border-bottom: 1px solid #ccc;
 		box-shadow: 0 1px 0 #fff;
-		&.sn-is-active {
+		&.fn-is-active {
 			background: #eee;
 			&::after {
 				font-size: 12px;
@@ -108,15 +108,15 @@
 
 		}
 	}
-	.sn-separate {
-		@extend %sn-reset;
+	.fn-separate {
+		@extend %fn-reset;
 		padding: 10px 0;
 		border: 0;
 		display: block;
 	}
 }
-.sn-content {
-	@extend %sn-reset;
+.fn-content {
+	@extend %fn-reset;
 	width: 100%;
 	box-sizing: border-box;
 	padding: 20px 20px 20px $sidebar-width+20px;
@@ -125,27 +125,27 @@
 	transition-property: margin,padding,filter;
 }
 
-.sn-heading2 {
-	@extend %sn-reset;
+.fn-heading2 {
+	@extend %fn-reset;
 	font-size: 32px;
 	margin: 0.5em 0 1em;
-	.sn-sub-heading {
+	.fn-sub-heading {
 		font-size: 14px;
 		color: #666;
 		word-break: break-all;
 	}
 }
-.sn-heading3 {
-	@extend %sn-reset;
+.fn-heading3 {
+	@extend %fn-reset;
 	font-size: 24px;
 	margin: 2em 0 1em;
 }
-.sn-attribute {
-	@extend %sn-reset;
+.fn-attribute {
+	@extend %fn-reset;
 	@extend %clearfix;
 	display: block;
-	.sn-attribute-item {
-		@extend %sn-reset;
+	.fn-attribute-item {
+		@extend %fn-reset;
 		font-size: 12px;
 		display: inline-block;
 		padding: 4px 10px;
@@ -153,30 +153,31 @@
 		box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
 		margin-right: 5px;
 		background: #f8f8f8;
-		&.sn-attribute-deprecated {
+		&.fn-attribute-deprecated {
 			background: #cb4437;
 			color: #fff;
 		}
-		&.sn-attribute-mixin {
+		&.fn-attribute-mixin {
 			background: #0f9d58;
 			color: #fff;
 		}
-		&.sn-attribute-private {
+		&.fn-attribute-private {
 			background: #f4b400;
 			color: #fff;
 		}
 	}
 }
-.sn-comment {
-	@extend %sn-reset;
+.fn-comment {
+	@extend %fn-reset;
 	font-size: 14px;
 	margin: 1em 0;
+	line-height: 1.4;
 }
-.sn-article {
-	@extend %sn-reset;
+.fn-article {
+	@extend %fn-reset;
 }
-.sn-preview {
-	@extend %sn-reset;
+.fn-preview {
+	@extend %fn-reset;
 	position: relative;
 	padding: 45px 20px 30px;
 	border: 1px solid #ccc;
@@ -194,13 +195,19 @@
 		border-radius: 0 0 3px 0;
 	}
 }
-.sn-pre {
-	@extend %sn-reset;
+.fn-pre {
+	@extend %fn-reset;
 	position: relative;
 	padding: 34px 20px 22px;
 	background: #fafafa;
-	.sn-code {
-		@extend %sn-reset;
+	.fn-icon {
+		position: absolute;
+		top: 0.5em;
+		right: 1em;
+		cursor: pointer;
+	}
+	.fn-code {
+		@extend %fn-reset;
 		display: block;
 		line-height: 1.4;
 		overflow: auto;
@@ -221,7 +228,7 @@
 	}
 }
 
-svg.sn-ripple {
+svg.fn-ripple {
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -235,18 +242,18 @@ svg.sn-ripple {
 	}
 }
 
-.sn-mobile-visible {
+.fn-mobile-visible {
 	display: none;
 }
-.sn-pc-visible {
+.fn-pc-visible {
 	display: block;
 }
-.sn-overflow {
+.fn-overflow {
 	overflow: hidden;
-	.sn-sidebar {
+	.fn-sidebar {
 		margin-left: 0;
 	}
-	.sn-content {
+	.fn-content {
 		padding: 20px;
 		margin-left: $sidebar-width;
 		filter: blur(5px);

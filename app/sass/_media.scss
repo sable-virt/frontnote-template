@@ -1,14 +1,14 @@
 @media screen and (max-width: 680px) {
-	.sn-content {
+	.fn-content {
 		padding: 20px;
 	}
-	.sn-sidebar {
+	.fn-sidebar {
 		margin-left: -$sidebar-width;
 	}
-	.sn-mobile-visible {
+	.fn-mobile-visible {
 		display: block;
 	}
-	.sn-pc-visible {
+	.fn-pc-visible {
 		display: none;
 	}
 }
