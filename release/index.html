@@ -42,8 +42,6 @@
         <% current.sections.forEach(function(section) { %>
         <article class="fn-article">
             <h3 class="fn-heading3"><%- section.title %></h3>
-            <p class="fn-comment"><%- section.comment %></p>
-            <% if(section.attributes) { %>
             <ul class="fn-attribute">
                 <% section.attributes.forEach(function(attribute) {%>
                 <% if(attribute.toLowerCase() === 'deprecated' || attribute === '非推奨') {%>
@@ -55,6 +53,8 @@
                 <% } %>
                 <% }); %>
             </ul>
+            <p class="fn-comment"><%- section.comment %></p>
+            <% if(section.attributes) { %>
             <% } %>
             <div class="fn-preview">
                 <%- section.code %>
