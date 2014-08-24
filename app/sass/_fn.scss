@@ -57,6 +57,7 @@
 
 
 	.fn-pagetop {
+		@extend %fn-reset;
 		position: fixed;
 		right: 15px;
 		bottom: 15px;
@@ -197,6 +198,7 @@
 	padding: 34px 20px 22px;
 	background: #fafafa;
 	.fn-icon {
+		@extend %fn-reset;
 		position: absolute;
 		top: 0.5em;
 		right: 1em;
@@ -225,6 +227,7 @@
 }
 
 svg.fn-ripple {
+	@extend %fn-reset;
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -262,5 +265,35 @@ svg.fn-ripple {
 			bottom: -5px;
 			background: rgba(255,255,255,0.3);
 		}
+	}
+}
+
+.fn-tooltip {
+	@extend %fn-reset;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 6px #999;
+	padding: 0.25em 1em;
+	font-size: 16px;
+}
+.fn-color-pallet {
+	@extend %fn-reset;
+	width: 20%;
+	margin: 0 12px 12px 0;
+	display: inline-block;
+	.fn-color-name {
+		@extend %fn-reset;
+		font-size: 16px;
+		white-space: nowrap;
+	}
+	.fn-color-panel {
+		@extend %fn-reset;
+		display: block;
+		height: 100px;
+		border: 1px solid #ccc;
 	}
 }
