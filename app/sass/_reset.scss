@@ -9,8 +9,8 @@ html, body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
+	font-size: 100%;
 	vertical-align: baseline;
 	line-height: 1;
 	list-style: none;
@@ -19,11 +19,14 @@ html, body {
 	border-spacing: 0;
 	color: $font-color;
 	text-decoration: none;
+	background: transparent;
 	&:after,&:before {
+		@extend %fn-reset;
 		content: '';
 		content: none;
 	}
 	:hover {
+		@extend %fn-reset;
 		color: $font-color;
 		text-decoration: none;
 	}
