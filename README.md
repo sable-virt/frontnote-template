@@ -119,3 +119,19 @@ attributesにattrが含まれているかどうかを返却
 ### section.code
 
 セクションコード
+
+### colors
+
+カラー情報が格納された配列
+
+#### colors[i].name
+
+カラー名
+
+#### colors[i].color
+
+カラーコード
+
+#### colors[i].value
+
+カラー名とカラーコード
