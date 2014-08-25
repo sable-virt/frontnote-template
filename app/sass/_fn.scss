@@ -1,5 +1,15 @@
+.fn-header,.fn-link,.fn-title,.fn-copyright,.fn-drawer-trigger,
+.fn-icon-link,.fn-container,.fn-pagetop,.fn-icon,.fn-sidebar,.fn-menu,
+.fn-separate,.fn-content,.fn-content img,.fn-heading2,.fn-sub-heading,
+.fn-heading3,.fn-attribute,.fn-attribute-item,.fn-comment,.fn-article,
+.fn-preview,.fn-pre,.fn-code,svg.fn-ripple,.fn-tooltip,.fn-color-pallet,
+.fn-color-name,.fn-color-panel
+{
+	@extend .fn-reset;
+
+}
+
 .fn-header {
-	@extend %fn-reset;
 	@extend %clearfix;
 	position: fixed;
 	top: 0;
@@ -12,19 +22,17 @@
 	padding: 0 20px;
 	box-shadow: $base-shadow;
 	.fn-link {
-		@extend %fn-reset;
 		color: $header-font-color;
 	}
 	.fn-title {
-		@extend %fn-reset;
 		color: $header-font-color;
 		letter-spacing: 2px;
 		line-height: $header-height;
 		font-size: 24px;
 		float: left;
+		margin: 0;
 	}
 	.fn-copyright {
-		@extend %fn-reset;
 		color: $header-font-color;
 		float: right;
 		line-height: $header-height;
@@ -47,17 +55,13 @@
 }
 
 .fn-container {
-	@extend %fn-reset;
 	@extend %clearfix;
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
 	padding-top: 64px;
 	position: relative;
-
-
 	.fn-pagetop {
-		@extend %fn-reset;
 		position: fixed;
 		right: 15px;
 		bottom: 15px;
@@ -78,7 +82,6 @@
 	}
 }
 .fn-sidebar {
-	@extend %fn-reset;
 	overflow: auto;
 	padding-top: 64px;
 	width: $sidebar-width;
@@ -91,7 +94,6 @@
 	box-shadow: 1px 0 2px #eee;
 	transition: 300ms cubic-bezier(.55,0,.1,1) margin;
 	.fn-menu {
-		@extend %fn-reset;
 		position: relative;
 		padding: 20px 12px;
 		display: block;
@@ -110,24 +112,26 @@
 		}
 	}
 	.fn-separate {
-		@extend %fn-reset;
 		padding: 10px 0;
 		border: 0;
 		display: block;
 	}
 }
 .fn-content {
-	@extend %fn-reset;
 	width: 100%;
 	box-sizing: border-box;
 	padding: 20px 20px 20px $sidebar-width+20px;
 	transition-duration: 300ms;
 	transition-timing-function: cubic-bezier(.55,0,.1,1);
 	transition-property: margin,padding,filter;
+
+	img {
+		width: 100%;
+		max-width: 100%;
+	}
 }
 
 .fn-heading2 {
-	@extend %fn-reset;
 	font-size: 32px;
 	margin: 0.5em 0 1em;
 	.fn-sub-heading {
@@ -137,16 +141,13 @@
 	}
 }
 .fn-heading3 {
-	@extend %fn-reset;
 	font-size: 24px;
 	margin: 2em 0 1em;
 }
 .fn-attribute {
-	@extend %fn-reset;
 	@extend %clearfix;
 	display: block;
 	.fn-attribute-item {
-		@extend %fn-reset;
 		font-size: 12px;
 		display: inline-block;
 		padding: 4px 10px;
@@ -165,16 +166,14 @@
 	}
 }
 .fn-comment {
-	@extend %fn-reset;
 	font-size: 14px;
 	margin: 1em 0;
 	line-height: 1.4;
 }
 .fn-article {
-	@extend %fn-reset;
+
 }
 .fn-preview {
-	@extend %fn-reset;
 	position: relative;
 	padding: 45px 20px 30px;
 	border: 1px solid #ccc;
@@ -193,19 +192,16 @@
 	}
 }
 .fn-pre {
-	@extend %fn-reset;
 	position: relative;
 	padding: 34px 20px 22px;
 	background: #fafafa;
 	.fn-icon {
-		@extend %fn-reset;
 		position: absolute;
 		top: 0.5em;
 		right: 1em;
 		cursor: pointer;
 	}
 	.fn-code {
-		@extend %fn-reset;
 		display: block;
 		line-height: 1.4;
 		overflow: auto;
@@ -227,7 +223,6 @@
 }
 
 svg.fn-ripple {
-	@extend %fn-reset;
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -269,7 +264,6 @@ svg.fn-ripple {
 }
 
 .fn-tooltip {
-	@extend %fn-reset;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -281,19 +275,22 @@ svg.fn-ripple {
 	font-size: 16px;
 }
 .fn-color-pallet {
-	@extend %fn-reset;
 	width: 20%;
 	margin: 0 12px 12px 0;
 	display: inline-block;
 	.fn-color-name {
-		@extend %fn-reset;
 		font-size: 16px;
 		white-space: nowrap;
 	}
 	.fn-color-panel {
-		@extend %fn-reset;
 		display: block;
 		height: 100px;
 		border: 1px solid #ccc;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.fn-copyright {
+		display: none;
 	}
 }

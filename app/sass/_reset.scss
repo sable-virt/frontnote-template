@@ -3,9 +3,9 @@ html, body {
 	height: 100%;
 	text-size-adjust: 100%;
 	background: #fff;
-	@extend %fn-reset;
+	@extend .fn-reset;
 }
-%fn-reset {
+.fn-reset {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -21,12 +21,12 @@ html, body {
 	text-decoration: none;
 	background: transparent;
 	&:after,&:before {
-		@extend %fn-reset;
+		@extend .fn-reset;
 		content: '';
 		content: none;
 	}
 	:hover {
-		@extend %fn-reset;
+		@extend .fn-reset;
 		color: $font-color;
 		text-decoration: none;
 	}
