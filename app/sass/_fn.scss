@@ -124,11 +124,6 @@
 	transition-duration: 300ms;
 	transition-timing-function: cubic-bezier(.55,0,.1,1);
 	transition-property: margin,padding,filter;
-
-	img {
-		width: 100%;
-		max-width: 100%;
-	}
 }
 
 .fn-heading2 {
