@@ -6,12 +6,13 @@ html, body {
   background: #fff; }
 
 /* line 8, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
-.fn-reset, html, body, .fn-reset:after, .fn-reset:before, .fn-reset :hover, .fn-header, .fn-link, .fn-title, .fn-copyright, .fn-drawer-trigger, .fn-icon-link, .fn-container, .fn-pagetop, .fn-icon, .fn-sidebar, .fn-menu, .fn-separate, .fn-content, .fn-content img, .fn-heading2, .fn-sub-heading, .fn-heading3, .fn-attribute, .fn-attribute-item, .fn-comment, .fn-article, .fn-preview, .fn-pre, .fn-code, svg.fn-ripple, .fn-tooltip, .fn-color-pallet, .fn-color-name, .fn-color-panel {
+.fn-reset, html, body, .fn-reset:after, .fn-reset:before, .fn-reset :hover, .fn-header, .fn-link, .fn-title, .fn-copyright, .fn-drawer-trigger, .fn-icon-link, .fn-container, .fn-pagetop, .fn-icon, .fn-sidebar, .fn-menu, .fn-separate, .fn-content, .fn-content img, .fn-heading2, .fn-sub-heading, .fn-heading3, .fn-attribute, .fn-attribute-item, .fn-comment, .fn-article, .fn-preview, .fn-pre, .fn-code, svg.fn-ripple, .fn-tooltip, .fn-color-pallet, .fn-color-name, .fn-color-panel, .fn-overview, .fn-overview h1, .fn-overview h2, .fn-overview h3, .fn-overview h4, .fn-overview h5, .fn-overview h6, .fn-overview p, .fn-overview img, .fn-overview div, .fn-overview blockquote, .fn-overview pre, .fn-overview code, .fn-overview strong, .fn-overview ul, .fn-overview ol, .fn-overview li {
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
-  font-size: 100%;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
   vertical-align: baseline;
   line-height: 1;
   list-style: none;
@@ -21,27 +22,27 @@ html, body {
   color: #333;
   text-decoration: none;
   background: transparent; }
-  /* line 23, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
-  .fn-reset:after, html:after, body:after, .fn-reset :hover:after, .fn-header:after, .fn-link:after, .fn-title:after, .fn-copyright:after, .fn-drawer-trigger:after, .fn-icon-link:after, .fn-container:after, .fn-pagetop:after, .fn-icon:after, .fn-sidebar:after, .fn-menu:after, .fn-separate:after, .fn-content:after, .fn-content img:after, .fn-heading2:after, .fn-sub-heading:after, .fn-heading3:after, .fn-attribute:after, .fn-attribute-item:after, .fn-comment:after, .fn-article:after, .fn-preview:after, .fn-pre:after, .fn-code:after, svg.fn-ripple:after, .fn-tooltip:after, .fn-color-pallet:after, .fn-color-name:after, .fn-color-panel:after, .fn-reset:before, html:before, body:before, .fn-reset :hover:before, .fn-header:before, .fn-link:before, .fn-title:before, .fn-copyright:before, .fn-drawer-trigger:before, .fn-icon-link:before, .fn-container:before, .fn-pagetop:before, .fn-icon:before, .fn-sidebar:before, .fn-menu:before, .fn-separate:before, .fn-content:before, .fn-content img:before, .fn-heading2:before, .fn-sub-heading:before, .fn-heading3:before, .fn-attribute:before, .fn-attribute-item:before, .fn-comment:before, .fn-article:before, .fn-preview:before, .fn-pre:before, .fn-code:before, svg.fn-ripple:before, .fn-tooltip:before, .fn-color-pallet:before, .fn-color-name:before, .fn-color-panel:before {
+  /* line 24, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  .fn-reset:after, html:after, body:after, .fn-reset :hover:after, .fn-header:after, .fn-link:after, .fn-title:after, .fn-copyright:after, .fn-drawer-trigger:after, .fn-icon-link:after, .fn-container:after, .fn-pagetop:after, .fn-icon:after, .fn-sidebar:after, .fn-menu:after, .fn-separate:after, .fn-content:after, .fn-content img:after, .fn-heading2:after, .fn-sub-heading:after, .fn-heading3:after, .fn-attribute:after, .fn-attribute-item:after, .fn-comment:after, .fn-article:after, .fn-preview:after, .fn-pre:after, .fn-code:after, svg.fn-ripple:after, .fn-tooltip:after, .fn-color-pallet:after, .fn-color-name:after, .fn-color-panel:after, .fn-overview:after, .fn-overview h1:after, .fn-overview h2:after, .fn-overview h3:after, .fn-overview h4:after, .fn-overview h5:after, .fn-overview h6:after, .fn-overview p:after, .fn-overview img:after, .fn-overview div:after, .fn-overview blockquote:after, .fn-overview pre:after, .fn-overview code:after, .fn-overview strong:after, .fn-overview ul:after, .fn-overview ol:after, .fn-overview li:after, .fn-reset:before, html:before, body:before, .fn-reset :hover:before, .fn-header:before, .fn-link:before, .fn-title:before, .fn-copyright:before, .fn-drawer-trigger:before, .fn-icon-link:before, .fn-container:before, .fn-pagetop:before, .fn-icon:before, .fn-sidebar:before, .fn-menu:before, .fn-separate:before, .fn-content:before, .fn-content img:before, .fn-heading2:before, .fn-sub-heading:before, .fn-heading3:before, .fn-attribute:before, .fn-attribute-item:before, .fn-comment:before, .fn-article:before, .fn-preview:before, .fn-pre:before, .fn-code:before, svg.fn-ripple:before, .fn-tooltip:before, .fn-color-pallet:before, .fn-color-name:before, .fn-color-panel:before, .fn-overview:before, .fn-overview h1:before, .fn-overview h2:before, .fn-overview h3:before, .fn-overview h4:before, .fn-overview h5:before, .fn-overview h6:before, .fn-overview p:before, .fn-overview img:before, .fn-overview div:before, .fn-overview blockquote:before, .fn-overview pre:before, .fn-overview code:before, .fn-overview strong:before, .fn-overview ul:before, .fn-overview ol:before, .fn-overview li:before {
     content: '';
     content: none; }
-  /* line 28, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
-  .fn-reset :hover, .fn-reset html, .fn-reset body, .fn-reset .fn-reset:after, .fn-reset .fn-reset:before, .fn-reset .fn-header, .fn-reset .fn-link, .fn-reset .fn-title, .fn-reset .fn-copyright, .fn-reset .fn-drawer-trigger, .fn-reset .fn-icon-link, .fn-reset .fn-container, .fn-reset .fn-pagetop, .fn-reset .fn-icon, .fn-reset .fn-sidebar, .fn-reset .fn-menu, .fn-reset .fn-separate, .fn-reset .fn-content, .fn-reset .fn-content img, .fn-content .fn-reset img, .fn-reset .fn-heading2, .fn-reset .fn-sub-heading, .fn-reset .fn-heading3, .fn-reset .fn-attribute, .fn-reset .fn-attribute-item, .fn-reset .fn-comment, .fn-reset .fn-article, .fn-reset .fn-preview, .fn-reset .fn-pre, .fn-reset .fn-code, .fn-reset svg.fn-ripple, .fn-reset .fn-tooltip, .fn-reset .fn-color-pallet, .fn-reset .fn-color-name, .fn-reset .fn-color-panel {
+  /* line 29, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  .fn-reset :hover, .fn-reset html, .fn-reset body, .fn-reset .fn-reset:after, .fn-reset .fn-reset:before, .fn-reset .fn-header, .fn-reset .fn-link, .fn-reset .fn-title, .fn-reset .fn-copyright, .fn-reset .fn-drawer-trigger, .fn-reset .fn-icon-link, .fn-reset .fn-container, .fn-reset .fn-pagetop, .fn-reset .fn-icon, .fn-reset .fn-sidebar, .fn-reset .fn-menu, .fn-reset .fn-separate, .fn-reset .fn-content, .fn-reset .fn-content img, .fn-content .fn-reset img, .fn-reset .fn-heading2, .fn-reset .fn-sub-heading, .fn-reset .fn-heading3, .fn-reset .fn-attribute, .fn-reset .fn-attribute-item, .fn-reset .fn-comment, .fn-reset .fn-article, .fn-reset .fn-preview, .fn-reset .fn-pre, .fn-reset .fn-code, .fn-reset svg.fn-ripple, .fn-reset .fn-tooltip, .fn-reset .fn-color-pallet, .fn-reset .fn-color-name, .fn-reset .fn-color-panel, .fn-reset .fn-overview, .fn-reset .fn-overview h1, .fn-overview .fn-reset h1, .fn-reset .fn-overview h2, .fn-overview .fn-reset h2, .fn-reset .fn-overview h3, .fn-overview .fn-reset h3, .fn-reset .fn-overview h4, .fn-overview .fn-reset h4, .fn-reset .fn-overview h5, .fn-overview .fn-reset h5, .fn-reset .fn-overview h6, .fn-overview .fn-reset h6, .fn-reset .fn-overview p, .fn-overview .fn-reset p, .fn-reset .fn-overview img, .fn-overview .fn-reset img, .fn-reset .fn-overview div, .fn-overview .fn-reset div, .fn-reset .fn-overview blockquote, .fn-overview .fn-reset blockquote, .fn-reset .fn-overview pre, .fn-overview .fn-reset pre, .fn-reset .fn-overview code, .fn-overview .fn-reset code, .fn-reset .fn-overview strong, .fn-overview .fn-reset strong, .fn-reset .fn-overview ul, .fn-overview .fn-reset ul, .fn-reset .fn-overview ol, .fn-overview .fn-reset ol, .fn-reset .fn-overview li, .fn-overview .fn-reset li {
     color: #333;
     text-decoration: none; }
 
-/* line 35, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+/* line 36, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 38, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+/* line 39, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
 .fn-header, .fn-container, .fn-attribute {
   *zoom: 1; }
-  /* line 40, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  /* line 41, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
   .fn-header:before, .fn-container:before, .fn-attribute:before, .fn-header:after, .fn-container:after, .fn-attribute:after {
     content: " ";
     display: table; }
-  /* line 44, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
+  /* line 45, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/reset */
   .fn-header:after, .fn-container:after, .fn-attribute:after {
     clear: both; }
 
@@ -431,8 +432,78 @@ svg.fn-ripple {
     height: 100px;
     border: 1px solid #ccc; }
 
+/* line 288, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h1, .fn-overview h2, .fn-overview h3, .fn-overview h4, .fn-overview h5, .fn-overview h6, .fn-overview p, .fn-overview img, .fn-overview div, .fn-overview blockquote, .fn-overview pre, .fn-overview code, .fn-overview strong, .fn-overview ul, .fn-overview ol, .fn-overview li {
+  line-height: 1.5; }
+/* line 293, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h1 {
+  font-size: 3em; }
+/* line 296, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h2 {
+  font-size: 2.25em; }
+/* line 299, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h3 {
+  font-size: 2em; }
+/* line 302, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h4 {
+  font-size: 1.5em; }
+/* line 305, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h5 {
+  font-size: 1.3em; }
+/* line 308, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview h6 {
+  font-size: 1em; }
+/* line 311, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview blockquote {
+  position: relative;
+  border: 1px solid #eee;
+  padding: 30px;
+  margin: 10px 0; }
+  /* line 316, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  .fn-overview blockquote:before, .fn-overview blockquote:after {
+    font-size: 48px;
+    position: absolute;
+    color: #eee; }
+  /* line 321, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  .fn-overview blockquote:before {
+    line-height: 1;
+    content: '“';
+    top: 5px;
+    left: 5px; }
+  /* line 327, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  .fn-overview blockquote:after {
+    content: '”';
+    bottom: 5px;
+    right: 5px;
+    line-height: 0; }
+/* line 334, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview pre {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 15px; }
+/* line 340, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview strong, .fn-overview b {
+  font-weight: bold; }
+/* line 343, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview ul, .fn-overview ol {
+  margin-bottom: 1em;
+  padding-left: 20px; }
+/* line 347, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview ul {
+  list-style-type: disc; }
+  /* line 349, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  .fn-overview ul li {
+    list-style-type: disc; }
+/* line 353, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+.fn-overview ol {
+  list-style-type: decimal; }
+  /* line 355, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  .fn-overview ol li {
+    list-style-type: decimal; }
+
 @media screen and (max-width: 480px) {
-  /* line 288, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
+  /* line 362, /Users/HayashiYuichi/Documents/project/frontnote/frontnote-template/app/sass/fn */
   .fn-copyright {
     display: none; } }
 

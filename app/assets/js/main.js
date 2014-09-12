@@ -64,8 +64,11 @@
 
         var $tooltip = $('<div class="fn-tooltip"><i class=""></i></div>');
         $body.append($tooltip);
-        $('.fn-preview > *').on('mousemove',function(e) {
+        $('.fn-preview > *').on('mouseenter',function(e) {
+            if (!this.className) return;
             $tooltip.html(this.className);
+        }).on('mousemove', function(e) {
+            if (!this.className) return;
             $tooltip.stop().fadeIn(TOOLTIP_DURATION).css({
                 top: e.clientY + TOOLTIP_OFFSET_Y,
                 left: e.clientX + TOOLTIP_OFFSET_X

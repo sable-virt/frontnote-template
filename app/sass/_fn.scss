@@ -3,7 +3,7 @@
 .fn-separate,.fn-content,.fn-content img,.fn-heading2,.fn-sub-heading,
 .fn-heading3,.fn-attribute,.fn-attribute-item,.fn-comment,.fn-article,
 .fn-preview,.fn-pre,.fn-code,svg.fn-ripple,.fn-tooltip,.fn-color-pallet,
-.fn-color-name,.fn-color-panel
+.fn-color-name,.fn-color-panel,.fn-overview
 {
 	@extend .fn-reset;
 
@@ -281,6 +281,80 @@ svg.fn-ripple {
 		display: block;
 		height: 100px;
 		border: 1px solid #ccc;
+	}
+}
+
+.fn-overview {
+	h1,h2,h3,h4,h5,h6,p,img,div,blockquote,pre,code,strong,ul,ol,li {
+		@extend .fn-reset;
+		line-height: 1.5;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 2.25em;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.5em;
+	}
+	h5 {
+		font-size: 1.3em;
+	}
+	h6 {
+		font-size: 1em;
+	}
+	blockquote {
+		position: relative;
+		border: 1px solid #eee;
+		padding: 30px;
+		margin: 10px 0;
+		&:before,&:after {
+			font-size: 48px;
+			position: absolute;
+			color: #eee;
+		}
+		&:before {
+			line-height: 1;
+			content: '“';
+			top: 5px;
+			left: 5px;
+		}
+		&:after {
+			content: '”';
+			bottom: 5px;
+			right: 5px;
+			line-height: 0;
+		}
+	}
+	pre {
+		background: #f8f8f8;
+		border: 1px solid #ccc;
+		margin: 10px 0;
+		padding: 15px;
+	}
+	strong,b {
+		font-weight: bold;
+	}
+	ul,ol {
+		margin-bottom: 1em;
+		padding-left: 20px;
+	}
+	ul {
+		list-style-type: disc;
+		li {
+			list-style-type: disc;
+		}
+	}
+	ol {
+		list-style-type: decimal;
+		li {
+			list-style-type: decimal;
+		}
 	}
 }
 
