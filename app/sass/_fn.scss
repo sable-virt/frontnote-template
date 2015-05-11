@@ -31,6 +31,10 @@
 		font-size: 24px;
 		float: left;
 		margin: 0;
+		a {
+			color: $header-font-color;
+			text-decoration: none;
+		}
 	}
 	.fn-copyright {
 		color: $header-font-color;
@@ -270,7 +274,6 @@ svg.fn-ripple {
 	font-size: 16px;
 }
 .fn-color-pallet {
-	width: 20%;
 	margin: 0 12px 12px 0;
 	display: inline-block;
 	.fn-color-name {
