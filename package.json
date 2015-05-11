@@ -5,20 +5,20 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^1.1.1",
-    "gulp": "^3.8.1",
-    "gulp-autoprefixer": "0.0.7",
+    "browser-sync": "^2.7.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "2.2.0",
     "gulp-clean": "^0.3.1",
-    "gulp-cssmin": "^0.1.6",
-    "gulp-htmlhint": "0.0.8",
-    "gulp-if": "^1.2.4",
-    "gulp-imagemin": "^1.0.0",
-    "gulp-jshint": "^1.6.3",
-    "gulp-load-plugins": "^0.5.2",
-    "gulp-plumber": "^0.6.3",
-    "gulp-sass": "^0.7.2",
-    "gulp-uglify": "^0.3.1",
-    "jshint-stylish": "^0.2.0"
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlhint": "0.1.1",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^2.0.0",
+    "gulp-uglify": "^1.2.0",
+    "jshint-stylish": "^1.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
